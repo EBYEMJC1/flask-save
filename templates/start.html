@@ -1,0 +1,35 @@
+{% block content %} 
+<div class="btn1">
+    <h1>Types of Data</h1>
+    <p>There are two types of ways that data can be classified, categorical and numerical. Furthermore, both of these types of data have sub-data types.</p>
+    <a href="/histogram"><button><h1>Numerical Data</h1></button></a>
+    <a href="/categorical"><button><h1>Categorical Data</h1></button></a>
+</div>
+
+<style>
+    	body {
+			height: 100vh; /* Set body height to 100% of viewport height */
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin: 0;
+            background-color: skyblue; /* Set the background color */
+
+		}
+		.button-container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-top: 20px;
+		}
+		.btn1 {
+			margin: 0 300px; /* Add 300px margin between buttons */
+			padding: 10px 20px;
+			border: none;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+		}
+
+</style>
+{% endblock %}
